@@ -1,0 +1,32 @@
+[
+	{
+		"code": "vanadinite",
+		"triesPerChunk": 1,
+		"withOreMap": true,
+		"handbookPageCode": "item-nugget-vanadinite",
+		"generator": "disc-followsurface",
+		"attributes": {
+			"inblock": { "code": "rock-*", "name": "rock", "allowedVariants": ["limestone", "dolostone","claystone","mudstone","sandstone","shale","chert","quartzite"] },
+			"placeblock": {
+				"code": "ore-*-vanadinite-{rock}",
+				"name": "grade",
+				"allowedVariantsByInBlock": {
+					"rock-limestone": ["poor", "medium", "rich", "bountiful"],
+                    "rock-dolostone": ["poor", "medium", "rich", "bountiful"],
+					"rock-claystone": ["poor", "medium", "rich", "bountiful"],
+					"rock-mudstone": ["poor", "medium", "rich", "bountiful"],
+					"rock-sandstone": ["poor", "medium", "rich"],
+					"rock-shale": ["poor", "medium", "rich"],
+					"rock-chert": ["poor", "medium"],
+					"rock-quartzite": ["poor", "medium"]
+				}
+			},
+			"surfaceBlock": { "code": "looseores-vanadinite-{rock}-free" },
+			"surfaceBlockChance": 0.1,
+			"radius": { "dist": "gaussian", "avg": 7, "var": 3 },
+			"yPosRel": {"dist": "uniform", "avg": 0.5, "var": 0.48 },
+			"gradeDistribution": "RandomPlusDepthBonus",
+			"thickness": { "dist": "stronginvexp", "avg": 1, "var": 2 }
+		}
+	}
+]

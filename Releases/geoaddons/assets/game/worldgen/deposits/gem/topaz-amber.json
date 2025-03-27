@@ -1,0 +1,20 @@
+[
+	{
+		"code": "topazamber",
+		"triesPerChunk": 4,
+		"withOreMap": true,
+		"handbookPageCode": "item-gem-topazamber-rough",
+		"generator": "disc-followsealevel",
+		"attributes": {
+			"inblock": { "code": "rock-*", "name": "rock", "allowedVariants": ["granite","rhyolite","pumice"] },
+			"placeblock": { 
+				"code": "ore-*-topazamber-{rock}",
+				"name": "potential",
+				"allowedVariants": ["low", "medium", "high"]
+			},
+			"radius": { "dist": "gaussian", "avg": 2, "var": 1 },
+			"yPosRel": {"dist": "uniform", "avg": 0.8, "var": 0.1 },
+			"thickness": { "dist": "uniform", "avg": 2, "var": 1.5 }
+		}
+	}
+]

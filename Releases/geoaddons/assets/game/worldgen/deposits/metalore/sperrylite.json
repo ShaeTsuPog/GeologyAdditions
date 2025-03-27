@@ -1,0 +1,27 @@
+[
+	{
+		"code": "sperrylite",
+		"triesPerChunk": 0.5,
+		"withOreMap": true,
+		"handbookPageCode": "item-nugget-sperrylite",
+		"generator": "disc-followsurface",
+		"attributes": {
+			"inblock": { "code": "rock-*", "name": "rock", "allowedVariants": ["basalt","gabbro","peridotite"] },
+			"placeblock": {
+				"code": "ore-*-sperrylite-{rock}",
+				"name": "grade",
+				"allowedVariantsByInBlock": {
+					"rock-gabbro": ["poor", "medium", "rich"],
+                    "rock-basalt": ["poor", "medium", "rich"],
+					"rock-peridotite": ["poor", "medium", "rich", "bountiful"]
+				}
+			},
+			"surfaceBlock": { "code": "looseores-sperrylite-{rock}-free" },
+			"surfaceBlockChance": 0.33,
+			"radius": { "dist": "uniform", "avg": 3, "var": 1 },
+			"yPosRel": {"dist": "uniform", "avg": 0.5, "var": 0.48 },
+			"gradeDistribution": "RandomPlusDepthBonus",
+			"thickness": { "dist": "stronginvexp", "avg": 1, "var": 2 }
+		}
+	}
+]

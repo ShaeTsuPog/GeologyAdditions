@@ -1,0 +1,35 @@
+[
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetalmandine-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetalmandine-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetalmandine-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetalmandine-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetalmandine-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetalmandine-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetalmandine-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetalmandine-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetalmandine-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetalmandine-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetalmandine-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetalmandine-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetalmandine-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetalmandine-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetalmandine-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetalmandine-amphibolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetalmandine-amphibolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetalmandine-amphibolite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetalmandine-slate-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetalmandine-phyllite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetalmandine-schist-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetalmandine-gneiss-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetalmandine-migmatite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetalmandine-amphibolite-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      {	"op": "add", "path": "/variants/-", "value": { "Code": "garnetalmandine" }, "file": "game:worldproperties/block/ore-gem-rough.json" }
+]

@@ -1,0 +1,1089 @@
+[
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/bismuthinite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/bismuthinite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/bismuthinite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/bismuthinite.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "migmatite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "amphibolite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "migmatite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "amphibolite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-amphibolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-migmatite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "migmatite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "amphibolite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-amphibolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-migmatite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/chromite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/chromite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/chromite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/chromite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/chromite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/chromite.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-siltstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "schist",
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/ilmenite.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "schist",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
+    "value": [
+      "poor"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-schist",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-siltstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "schist",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "migmatite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-migmatite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-siltstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "schist",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "migmatite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-migmatite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-schist",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-siltstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-siltstone",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "schist",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolostone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-siltstone",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  }
+
+]

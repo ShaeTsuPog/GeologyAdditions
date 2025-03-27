@@ -1,0 +1,20 @@
+[
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-tourmalineschorl-granite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-tourmalineschorl-granite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-tourmalineschorl-granite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-tourmalineschorl-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-tourmalineschorl-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-tourmalineschorl-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-tourmalineschorl-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-tourmalineschorl-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-tourmalineschorl-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-tourmalineschorl-granite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-tourmalineschorl-phyllite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-tourmalineschorl-schist-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-tourmalineschorl-gneiss-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-tourmalineschorl-migmatite-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      {	"op": "add", "path": "/variants/-", "value": { "Code": "tourmalineschorl" }, "file": "game:worldproperties/block/ore-gem-rough.json" }
+]

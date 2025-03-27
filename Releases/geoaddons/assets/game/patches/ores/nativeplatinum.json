@@ -1,0 +1,45 @@
+[
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-poor-nativeplatinum-peridotite", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-nativeplatinum-peridotite", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativeplatinum-peridotite", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativeplatinum-peridotite", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-poor-nativeplatinum-basalt", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-nativeplatinum-basalt", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativeplatinum-basalt", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-poor-nativeplatinum-gabbro", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-nativeplatinum-gabbro", "file": "game:blocktypes/stone/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativeplatinum-gabbro", "file": "game:blocktypes/stone/ore-graded.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-nativeplatinum-peridotite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-nativeplatinum-basalt-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-nativeplatinum-gabbro-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-poor-nativeplatinum-peridotite", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-nativeplatinum-peridotite", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativeplatinum-peridotite", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativeplatinum-peridotite", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-poor-nativeplatinum-basalt", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-nativeplatinum-basalt", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativeplatinum-basalt", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-poor-nativeplatinum-gabbro", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-nativeplatinum-gabbro", "file": "game:itemtypes/resource/ore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativeplatinum-gabbro", "file": "game:itemtypes/resource/ore-graded.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativeplatinum-peridotite", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativeplatinum-peridotite", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativeplatinum-peridotite", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativeplatinum-peridotite", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativeplatinum-basalt", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativeplatinum-basalt", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativeplatinum-basalt", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativeplatinum-gabbro", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativeplatinum-gabbro", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativeplatinum-gabbro", "file": "game:itemtypes/resource/crystalizedore-graded.json" },
+
+      
+      {	"op": "add", "path": "/requiredMiningTierByType/ore-*-nativeplatinum-*", "value": 3, "file": "game:blocktypes/stone/ore-graded.json" },
+      {	"op": "add", "path": "/variants/-", "value": { "Code": "nativeplatinum" }, "file": "game:worldproperties/block/ore-graded.json" },
+	  {	"op": "add", "path": "/variants/-", "value": { "Code": "nativeplatinum" }, "file": "game:worldproperties/block/ore-nugget.json" },
+      {	"op": "add", "path": "/combustiblePropsByType/*-nativeplatinum", "value": { "meltingPoint": 1768, "meltingDuration": 30, "smeltedRatio": 20, "smeltedStack": { "type": "item", "code": "ingot-platinum" } }, "file": "game:itemtypes/resource/nugget.json" }
+]

@@ -1,0 +1,27 @@
+[
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-granite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-berylbixbite-granite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-berylbixbite-granite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-rhyolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-berylbixbite-rhyolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-berylbixbite-rhyolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-pumice", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-berylbixbite-pumice", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-berylbixbite-pumice", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-berylbixbite-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-granite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-slate-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-phyllite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-schist-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-gneiss-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-rhyolite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-berylbixbite-pumice-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      {	"op": "add", "path": "/variants/-", "value": { "Code": "berylbixbite" }, "file": "game:worldproperties/block/ore-gem-rough.json" }
+]

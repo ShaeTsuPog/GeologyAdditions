@@ -1,0 +1,22 @@
+[
+  {
+    "file": "game:recipes/knapping/stone-spear.json",
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "quartzite"
+  },
+  {
+    "file": "game:recipes/knapping/stone-spear.json",
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "gabbro"
+  },
+  {
+    "file": "game:recipes/knapping/stone-spear.json",
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "diorite"
+    
+  }
+
+]

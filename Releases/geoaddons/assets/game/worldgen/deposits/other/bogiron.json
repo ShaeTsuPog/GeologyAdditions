@@ -1,0 +1,40 @@
+[
+	{
+		"code": "bogironlarge",
+		"triesPerChunk": 1,
+		"generator": "disc-followsurface",
+		"attributes": {
+			"inblock": { "code": "muddygravel" },
+			"placeblock": { 
+				"code": "bogiron" 
+			},
+			"radius": { "dist": "uniform", "avg": 2, "var": 3 },
+			"yPosRel": {"dist": "uniform", "avg": 0.94, "var": 0.05 },
+			"thickness": { "avg": 1.2, "var": 0.3 }
+		},
+		"climate": {
+			"minRain": 0.5,
+			"minTemp": 1,
+			"maxTemp": 24
+		}
+	},
+	{
+		"code": "bogironsmall",
+		"triesPerChunk": 4,
+		"generator": "disc-followsurface",
+		"attributes": {
+			"inblock": { "code": "muddygravel" },
+			"placeblock": { 
+				"code": "bogiron" 
+			},
+			"radius": { "dist": "uniform", "avg": 2, "var": 1 },
+			"yPosRel": {"dist": "uniform", "avg": 0.97, "var": 0.03 },
+			"thickness": { "avg": 1, "var": 0.2 }
+		},
+		"climate": {
+			"minRain": 0.4,
+			"minTemp": 1,
+			"maxTemp": 24
+		}
+	}
+]

@@ -1,0 +1,16 @@
+[
+    {
+      "op": "add",
+      "path": "/variantgroups/0/states",
+      "value": ["granite", "andesite", "basalt", "peridotite", "diorite", "gabbro", "rhyolite"],
+      "file": "game:blocktypes/stone/quern.json"
+    },
+
+    {
+      "op": "add",
+      "path": "/ingredients/R/allowedVariants",
+      "value": ["granite", "andesite", "basalt", "peridotite", "diorite", "gabbro", "rhyolite"],
+      "file": "game:recipes/grid/quern.json"
+
+    }
+  ]

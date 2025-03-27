@@ -2,7 +2,7 @@
 run-name: Building the latest commit
 on: [ push ]
 env:
-  VINTAGE_STORY: build/vendor
+  VINTAGE_STORY: GeologyAdditions/build/vendor/
 jobs:
   ModBuild:
     runs-on: ubuntu-latest

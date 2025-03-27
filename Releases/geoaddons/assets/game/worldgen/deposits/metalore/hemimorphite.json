@@ -1,0 +1,32 @@
+[
+	{
+		"code": "hemimorphite",
+		"triesPerChunk": 8,
+		"withOreMap": true,
+		"handbookPage": "item-nugget-hemimorphite",
+		"generator": "disc-followsurface",
+		"attributes": {
+			"inblock": { "code": "rock-*", "name": "rock", "allowedVariants": ["phyllite", "slate", "gneiss", "quartzite", "schist", "redmarble", "greenmarble", "whitemarble","migmatite"] },
+			"placeblock": {
+				"code": "ore-*-hemimorphite-{rock}",
+				"name": "grade",
+				"allowedVariantsByInBlock": {
+					"rock-phyllite": ["poor", "medium", "rich", "bountiful"],
+					"rock-slate": ["poor", "medium", "rich", "bountiful"],
+					"rock-gneiss": ["poor", "medium", "rich"],
+					"rock-quartzite": ["poor", "medium", "rich"],
+					"rock-schist": ["poor", "medium", "rich"],
+					"rock-redmarble": ["poor", "medium", "rich"],
+					"rock-greenmarble": ["poor", "medium", "rich"],
+					"rock-whitemarble": ["poor", "medium", "rich"],
+					"rock-migmatite": ["poor", "medium"]
+				}
+			},
+			"surfaceBlock": { "code": "looseores-hemimorphite-{rock}-free" },
+			"surfaceBlockChance": 0.1,
+			"radius": { "dist": "gaussian", "avg": 7, "var": 3 },
+			"yPosRel": {"dist": "uniform", "avg": 0.45, "var": 0.4 },
+			"thickness": { "dist": "uniform", "avg": 1, "var": 2 }
+		}
+	}
+]

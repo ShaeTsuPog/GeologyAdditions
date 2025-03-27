@@ -1,0 +1,11 @@
+[
+	{
+		comment: "Sodastraws",
+		blockCodes: ["sodastraws-base1"],
+		quantity: { avg: 9, var: 6 },
+		chance: 0.5,
+		offsetX: { avg: 0, var: 8 },
+		offsetZ: { avg: 0, var: 8 },
+		placement: "Underground"
+	}
+]

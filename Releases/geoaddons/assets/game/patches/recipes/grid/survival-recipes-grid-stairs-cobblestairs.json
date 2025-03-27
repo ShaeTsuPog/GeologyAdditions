@@ -1,0 +1,86 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "rhyolite",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "dolostone",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "siltstone",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "quartzite",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "gneiss",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "schist",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "migmatite",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "amphibolite",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "pumice",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "diorite",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "gabbro",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "mudstone",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "jade",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/L/allowedVariants/-",
+    "value": "jasper",
+    "file": "game:recipes/grid/stairs/cobblestairs.json"
+  }
+]

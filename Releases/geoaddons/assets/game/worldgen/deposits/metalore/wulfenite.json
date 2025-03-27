@@ -1,0 +1,33 @@
+[
+	{
+		"code": "wulfenite",
+		"triesPerChunk": 5,
+		"withOreMap": true,
+		"handbookPageCode": "item-nugget-wulfenite",
+		"generator": "disc-followsurface",
+		"attributes": {
+			"inblock": { "code": "rock-*", "name": "rock", "allowedVariants": ["limestone", "dolostone","chalk","granite","sandstone","quartzite","conglomerate","claystone","mudstone"] },
+			"placeblock": {
+				"code": "ore-*-wulfenite-{rock}",
+				"name": "grade",
+				"allowedVariantsByInBlock": {
+					"rock-limestone": ["poor", "medium", "rich", "bountiful"],
+                    "rock-dolostone": ["poor", "medium", "rich", "bountiful"],
+					"rock-chalk": ["poor", "medium", "rich"],
+					"rock-granite": ["poor", "medium", "rich"],
+					"rock-sandstone":["poor", "medium"],
+					"rock-quartzite":["poor", "medium"],
+					"rock-conglomerate": ["poor", "medium"],
+					"rock-claystone":["poor"],
+					"rock-mudstone":["poor"]
+				}
+			},
+			"surfaceBlock": { "code": "looseores-wulfenite-{rock}-free" },
+			"surfaceBlockChance": 0.1,
+			"radius": { "dist": "gaussian", "avg": 5, "var": 3 },
+			"yPosRel": {"dist": "uniform", "avg": 0.5, "var": 0.48 },
+			"gradeDistribution": "RandomPlusDepthBonus",
+			"thickness": { "dist": "stronginvexp", "avg": 1, "var": 2 }
+		}
+	}
+]

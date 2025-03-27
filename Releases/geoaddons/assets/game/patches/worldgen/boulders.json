@@ -1,0 +1,32 @@
+[
+
+    {"op":"add","path":"/rocktypeRemapGroups/standard/looseboulders-granite-free","value":"looseboulders-{rock}-free", "file":"game:worldgen/structures.json" },
+
+    {
+    "op":"add","path":"/structures/-","value":{
+        code: "boulderslarge",
+        chance: 0.0125,
+        schematics: ["game:surface/geoaddons/boulder_large_*"],
+        rockTypeRemapGroup: "standard",
+        offsetY: -1
+    }, "file":"game:worldgen/structures.json" },
+
+    {
+    "op":"add","path":"/structures/-","value":{
+        code: "boulderssmall",
+        chance: 0.025,
+        schematics: ["game:surface/geoaddons/boulder_small_*"],
+        rockTypeRemapGroup: "standard",
+        offsetY: -1
+    }, "file":"game:worldgen/structures.json" },
+
+    {
+    "op":"add","path":"/structures/-","value":{
+        code: "forgeruins",
+        chance: 0.003,
+        schematics: ["game:surface/geoaddons/forge_*"],
+        rockTypeRemapGroup: "standard"
+    }, "file":"game:worldgen/structures.json" }
+
+]
+
