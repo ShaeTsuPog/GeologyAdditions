@@ -2,7 +2,7 @@
 run-name: Building the latest commit
 on: [ push ]
 env:
-  VINTAGE_STORY: GeologyAdditions/build/vendor/
+  VINTAGE_STORY: "./GeologyAdditions/build/vendor/"
 jobs:
   ModBuild:
     runs-on: ubuntu-latest
@@ -12,7 +12,6 @@ jobs:
           dotnet-version: '7.0.x'
       - name: Get the source
         uses: actions/checkout@v1
-      - name: Run Cake Frosting
-        uses: cake-build/cake-action@v3
-        with:
-          project-path: CakeBuild/CakeBuild.csproj
+      - name: Build
+          shell: pwsh
+          run: .\build.ps1
