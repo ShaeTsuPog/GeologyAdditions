@@ -1,0 +1,35 @@
+[
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetuvarovite-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetuvarovite-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetuvarovite-slate", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetuvarovite-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetuvarovite-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetuvarovite-phyllite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetuvarovite-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetuvarovite-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetuvarovite-schist", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetuvarovite-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetuvarovite-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetuvarovite-gneiss", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetuvarovite-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetuvarovite-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetuvarovite-migmatite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-low-garnetuvarovite-amphibolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-medium-garnetuvarovite-amphibolite", "file": "game:blocktypes/stone/ore-gem.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "ore-high-garnetuvarovite-amphibolite", "file": "game:blocktypes/stone/ore-gem.json" },
+
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetuvarovite-slate-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetuvarovite-phyllite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetuvarovite-schist-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetuvarovite-gneiss-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetuvarovite-migmatite-free", "file": "game:blocktypes/stone/looseores.json" },
+      { "op": "add", "path": "/allowedVariants/-", "value": "looseores-garnetuvarovite-amphibolite-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      {	"op": "add", "path": "/variants/-", "value": { "Code": "garnetuvarovite" }, "file": "game:worldproperties/block/ore-gem-rough.json" }
+]

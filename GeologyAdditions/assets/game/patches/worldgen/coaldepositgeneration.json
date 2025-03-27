@@ -1,0 +1,72 @@
+[
+    {
+        "op": "add",
+        "path": "/0/attributes/inblock/allowedVariants/-",
+        "value": "mudstone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+      {
+        "op": "add",
+        "path": "/0/attributes/inblock/allowedVariants/-",
+        "value": "siltstone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+      {
+        "op": "add",
+        "path": "/0/attributes/inblock/allowedVariants/-",
+        "value": "dolostone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+
+
+      {
+        "op": "add",
+        "path": "/1/attributes/inblock/allowedVariants/-",
+        "value": "mudstone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+      {
+        "op": "add",
+        "path": "/1/attributes/inblock/allowedVariants/-",
+        "value": "siltstone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+      {
+        "op": "add",
+        "path": "/1/attributes/inblock/allowedVariants/-",
+        "value": "dolostone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+
+
+      {
+        "op": "add",
+        "path": "/2/attributes/inblock/allowedVariants/-",
+        "value": "mudstone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+      {
+        "op": "add",
+        "path": "/2/attributes/inblock/allowedVariants/-",
+        "value": "siltstone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+      {
+        "op": "add",
+        "path": "/2/attributes/inblock/allowedVariants/-",
+        "value": "dolostone",
+        "file": "game:worldgen/deposits/coal.json"
+      },
+
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-lignite-dolostone-free", "file": "game:blocktypes/stone/looseores.json" },
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-lignite-mudstone-free", "file": "game:blocktypes/stone/looseores.json" },
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-lignite-siltstone-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-dolostone-free", "file": "game:blocktypes/stone/looseores.json" },
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-mudstone-free", "file": "game:blocktypes/stone/looseores.json" },
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-siltstone-free", "file": "game:blocktypes/stone/looseores.json" },
+
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-anthracite-dolostone-free", "file": "game:blocktypes/stone/looseores.json" },
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-anthracite-mudstone-free", "file": "game:blocktypes/stone/looseores.json" },
+      {	"op": "add", "path": "/allowedVariants/-", "value": "looseores-anthracite-siltstone-free", "file": "game:blocktypes/stone/looseores.json" }
+]

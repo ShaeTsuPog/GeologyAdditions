@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/textures/diorite",
+    "value": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "file": "game:blocktypes/stone/knappingsurface.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/gabbro",
+    "value": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "file": "game:blocktypes/stone/knappingsurface.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/quartzite",
+    "value": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "file": "game:blocktypes/stone/knappingsurface.json"
+  }
+]

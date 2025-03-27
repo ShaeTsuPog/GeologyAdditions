@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"berylbixbite": "item/resource/ungraded/berylbixbite"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 6.8, -0.5, 6.4 ],
+			"to": [ 6.8, -0.5, 6.4 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Cube10",
+					"from": [ 0.8, 0.4, 0.9 ],
+					"to": [ 2.4, 4.4, 1.84 ],
+					"rotationOrigin": [ 1.6, 0.4, 1.37 ],
+					"faces": {
+						"east": { "texture": "#berylbixbite", "uv": [ 5.5, 7.0, 6.5, 11.0 ], "autoUv": false },
+						"west": { "texture": "#berylbixbite", "uv": [ 13.0, 4.0, 14.0, 8.0 ], "autoUv": false },
+						"up": { "texture": "#berylbixbite", "uv": [ 8.5, 6.5, 10.0, 7.5 ], "autoUv": false },
+						"down": { "texture": "#berylbixbite", "uv": [ 8.0, 5.5, 9.5, 6.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube11",
+					"from": [ 0.8, 0.41, 0.9 ],
+					"to": [ 2.4, 4.41, 1.84 ],
+					"rotationOrigin": [ 1.6, 0.4, 1.37 ],
+					"rotationY": 60.0,
+					"faces": {
+						"east": { "texture": "#berylbixbite", "uv": [ 14.5, 6.0, 15.5, 10.0 ], "autoUv": false },
+						"west": { "texture": "#berylbixbite", "uv": [ 3.0, 6.0, 4.0, 10.0 ], "autoUv": false },
+						"up": { "texture": "#berylbixbite", "uv": [ 6.5, 4.0, 8.0, 5.0 ], "autoUv": false },
+						"down": { "texture": "#berylbixbite", "uv": [ 10.5, 6.5, 12.0, 7.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube12",
+					"from": [ 0.8, 0.42, 0.9 ],
+					"to": [ 2.4, 4.42, 1.84 ],
+					"rotationOrigin": [ 1.6, 0.4, 1.37 ],
+					"rotationY": 120.0,
+					"faces": {
+						"east": { "texture": "#berylbixbite", "uv": [ 5.5, 8.0, 6.5, 12.0 ], "autoUv": false },
+						"west": { "texture": "#berylbixbite", "uv": [ 13.0, 5.5, 14.0, 9.5 ], "autoUv": false },
+						"up": { "texture": "#berylbixbite", "uv": [ 6.0, 8.0, 7.5, 9.0 ], "autoUv": false },
+						"down": { "texture": "#berylbixbite", "uv": [ 7.0, 5.5, 8.5, 6.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

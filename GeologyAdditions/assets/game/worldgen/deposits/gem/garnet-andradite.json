@@ -1,0 +1,20 @@
+[
+	{
+		"code": "garnetandradite",
+		"triesPerChunk": 16,
+		"withOreMap": true,
+		"handbookPageCode": "item-gem-garnetandradite-rough",
+		"generator": "disc-followsealevel",
+		"attributes": {
+			"inblock": { "code": "rock-*", "name": "rock", "allowedVariants": ["slate","phyllite","schist","gneiss","migmatite","amphibolite"] },
+			"placeblock": { 
+				"code": "ore-*-garnetandradite-{rock}",
+				"name": "potential",
+				"allowedVariants": ["low", "medium", "high"]
+			},
+			"radius": { "dist": "gaussian", "avg": 1, "var": 0.5 },
+			"yPosRel": {"dist": "uniform", "avg": 0.5, "var": 0.2 },
+			"thickness": { "dist": "uniform", "avg": 4, "var": 2 }
+		}
+	}
+]

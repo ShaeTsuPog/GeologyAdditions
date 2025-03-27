@@ -1,0 +1,10 @@
+[
+    {
+      "op": "addeach",
+      "path": "/ingredients/1/allowedVariants/0",
+      "value":[ 
+        "rhyolite", "dolostone", "siltstone", "quartzite", "gneiss", "schist", "migmatite", "amphibolite", "pumice", "diorite", "gabbro", "mudstone","jade", "jasper"
+        ],
+      "file": "game:recipes/barrel/mortar.json"
+    }
+  ]
