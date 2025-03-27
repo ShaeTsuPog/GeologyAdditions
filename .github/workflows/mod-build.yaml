@@ -4,10 +4,10 @@ on: [ push ]
 jobs:
   ModBuild:
     runs-on: ubuntu-latest
-      steps:
-        - name: Get the source
-          uses: actions/checkout@v1
-        - name: Run Cake Frosting
-          uses: cake-build/cake-action@v3
-            with:
-              project-path: CakeBuild/CakeBuild.csproj
+    steps:
+      - name: Get the source
+        uses: actions/checkout@v1
+      - name: Run Cake Frosting
+        uses: cake-build/cake-action@v3
+        with:
+          project-path: CakeBuild/CakeBuild.csproj
