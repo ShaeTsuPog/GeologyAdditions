@@ -13,5 +13,5 @@ jobs:
       - name: Get the source
         uses: actions/checkout@v1
       - name: Build
-          shell: pwsh
-          run: .\build.ps1
+        shell: pwsh
+        run: .\build.ps1
