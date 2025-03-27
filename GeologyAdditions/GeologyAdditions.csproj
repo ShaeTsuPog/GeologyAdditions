@@ -7,22 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Reference Include="VintagestoryAPI">
-            <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="VSSurvivalMod">
-            <HintPath>$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="VSEssentials">
-            <HintPath>$(VINTAGE_STORY)/Mods/VSEssentials.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="VintagestoryLib">
-            <HintPath>$(VINTAGE_STORY)/VintagestoryLib.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
+        <Reference Include="$(VINTAGE_STORY)/**/*.dll" Private="false" />
+        <PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.7.0" IncludeAssets="compile" PrivateAssets="all" />
+        <PackageReference Include="MimeTypeMapOfficial" Version="1.0.17" IncludeAssets="compile;runtime" PrivateAssets="all" />
+        <None Include="LICENSE;README.md;resources/**" CopyToOutputDirectory="PreserveNewest" Pack="true" PackagePath="" Link="%(RecursiveDir)%(Filename)%(Extension)" />
     </ItemGroup>
 
     <ItemGroup>
