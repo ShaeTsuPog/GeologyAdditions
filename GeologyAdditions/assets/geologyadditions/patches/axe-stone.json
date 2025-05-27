@@ -1,0 +1,241 @@
+[
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@axehead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "bone-diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/axe-bone-diorite",
+      "value": 60
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axe-bone-diorite",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axehead-diorite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-hatchet.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "bone-gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/axe-bone-gabbro",
+      "value": 60
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axe-bone-gabbro",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axehead-gabbro",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-hatchet.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "bone-quartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/axe-bone-quartzite",
+      "value": 80
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axe-bone-quartzite",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axehead-quartzite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-hatchet.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "quartzite"
+   }
+]

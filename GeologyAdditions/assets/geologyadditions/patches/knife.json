@@ -1,0 +1,422 @@
+[
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "remove",
+      "path": "/shapeByType/*"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/shapeByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+      "value": {
+         "base": "item/tool/knife/copper"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "remove",
+      "path": "/texturesByType/knife-generic-*"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+      "value": {
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/0/ingredients/T/allowedVariants",
+      "value": [
+         "copper",
+         "tinbronze",
+         "bismuthbronze",
+         "blackbronze",
+         "gold",
+         "silver",
+         "iron",
+         "meteoriciron",
+         "steel",
+         "chert",
+         "flint",
+         "granite",
+         "andesite",
+         "basalt",
+         "obsidian",
+         "peridotite"
+      ]
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "bonediorite"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-diorite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-bonediorite",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/shapeByType/knife-generic-diorite",
+      "value": {
+         "base": "item/tool/knife/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/knife-generic-diorite",
+      "value": 90
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/knife-generic-diorite",
+      "value": {
+         "plant": 1
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/knife-generic-diorite",
+      "value": 0.75
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knifeblade-diorite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/0/ingredients/T/allowedVariants/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/-",
+      "value": {
+         "height": 2,
+         "ingredientPattern": "T\tB",
+         "ingredients": {
+            "B": {
+               "code": "bone",
+               "type": "item"
+            },
+            "T": {
+               "code": "knifeblade-diorite",
+               "type": "item"
+            }
+         },
+         "output": {
+            "code": "knife-generic-bonediorite",
+            "quantity": 1,
+            "type": "item"
+         },
+         "width": 1
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-knife.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "bonegabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-gabbro",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-bonegabbro",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/shapeByType/knife-generic-gabbro",
+      "value": {
+         "base": "item/tool/knife/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/knife-generic-gabbro",
+      "value": 90
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/knife-generic-gabbro",
+      "value": {
+         "plant": 1
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/knife-generic-gabbro",
+      "value": 0.75
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knifeblade-gabbro",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/0/ingredients/T/allowedVariants/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/-",
+      "value": {
+         "height": 2,
+         "ingredientPattern": "T\tB",
+         "ingredients": {
+            "B": {
+               "code": "bone",
+               "type": "item"
+            },
+            "T": {
+               "code": "knifeblade-gabbro",
+               "type": "item"
+            }
+         },
+         "output": {
+            "code": "knife-generic-bonegabbro",
+            "quantity": 1,
+            "type": "item"
+         },
+         "width": 1
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-knife.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "bonequartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-quartzite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-bonequartzite",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/shapeByType/knife-generic-quartzite",
+      "value": {
+         "base": "item/tool/knife/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/knife-generic-quartzite",
+      "value": 120
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/knife-generic-quartzite",
+      "value": {
+         "plant": 1.2
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/knife-generic-quartzite",
+      "value": 0.90000000000000002
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knifeblade-quartzite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/0/ingredients/T/allowedVariants/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/-",
+      "value": {
+         "height": 2,
+         "ingredientPattern": "T\tB",
+         "ingredients": {
+            "B": {
+               "code": "bone",
+               "type": "item"
+            },
+            "T": {
+               "code": "knifeblade-quartzite",
+               "type": "item"
+            }
+         },
+         "output": {
+            "code": "knife-generic-bonequartzite",
+            "quantity": 1,
+            "type": "item"
+         },
+         "width": 1
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-knife.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "quartzite"
+   }
+]
