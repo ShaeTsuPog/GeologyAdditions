@@ -1,0 +1,41 @@
+[
+   {
+      "file": "game:blocktypes/wood/pan.json",
+      "op": "addmerge",
+      "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/-",
+      "value": {
+         "chance": {
+            "avg": 0.01,
+            "var": 0
+         },
+         "code": "nugget-nativeplatinum",
+         "type": "item"
+      }
+   },
+   {
+      "file": "game:blocktypes/wood/pan.json",
+      "op": "addmerge",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
+      "value": {
+         "chance": {
+            "avg": 0.0080000000000000002,
+            "var": 0
+         },
+         "code": "nugget-nativesilver",
+         "type": "item"
+      }
+   },
+   {
+      "file": "game:blocktypes/wood/pan.json",
+      "op": "addmerge",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
+      "value": {
+         "chance": {
+            "avg": 0.0040000000000000001,
+            "var": 0
+         },
+         "code": "nugget-nativeplatinum",
+         "type": "item"
+      }
+   }
+]
