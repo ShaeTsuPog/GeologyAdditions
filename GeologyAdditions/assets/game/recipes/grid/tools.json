@@ -1,26 +1,5 @@
 [
 	{
-		ingredientPattern: "T	B",
-		ingredients: {
-			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "diorite", "gabbro", "quartzite"] },
-			"B": { type: "item", code: "stick" }
-		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "axe-{material}", quantity: 1  }
-	},
-	{
-		ingredientPattern: "T	B",
-		ingredients: {
-			"T": { type: "item", code: "axehead-*", name: "material", allowedVariants: [ "diorite", "gabbro", "quartzite"] },
-			"B": { type: "item", code: "bone" }
-		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "axe-bone-{material}", quantity: 1  }
-	},
-
-	{
 		ingredientPattern: "T	S",
 		ingredients: {
 			"T": { type: "item", code: "shovelhead-*", name: "material", "allowedVariants":[ "diorite", "gabbro", "quartzite"]  },
@@ -40,15 +19,4 @@
 	height: 2,
 	output: { type: "item", code: "spear-generic-{metal}", quantity: 1  }
 	},
-	{
-		ingredientPattern: "T	B",
-		ingredients: {
-			"T": { type: "item", code: "knifeblade-*", name: "material", allowedVariants: [ "diorite", "gabbro", "quartzite"] },
-			"B": { type: "item", code: "bone" }
-		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "knife-generic-bone{material}", quantity: 1  }
-	},
-
 ]
