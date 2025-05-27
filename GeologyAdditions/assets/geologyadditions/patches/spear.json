@@ -1,0 +1,331 @@
+[
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "remove",
+      "path": "/texturesByType/spear-generic-*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@spearhead-(copper|tinbronze|bismuthbronze|blackbronze)",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "remove",
+      "path": "/client/texturesByType/*"
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/client/texturesByType/@spear-(copper|tinbronze|bismuthbronze|blackbronze)",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spear-generic-diorite",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spear-generic-diorite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/spear-generic-diorite",
+      "value": 1.75
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/spear-generic-diorite",
+      "value": 16
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attributes/damageByType/*-diorite",
+      "value": 4
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spearhead-diorite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spearhead-diorite",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/client/texturesByType/spear-generic-diorite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/spear.json",
+      "op": "addmerge",
+      "path": "/ingredients/T/allowedVariants/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spear-generic-gabbro",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spear-generic-gabbro",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/spear-generic-gabbro",
+      "value": 1.75
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/spear-generic-gabbro",
+      "value": 16
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attributes/damageByType/*-gabbro",
+      "value": 4
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spearhead-gabbro",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spearhead-gabbro",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/client/texturesByType/spear-generic-gabbro",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/spear.json",
+      "op": "addmerge",
+      "path": "/ingredients/T/allowedVariants/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spear-generic-quartzite",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spear-generic-quartzite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/spear-generic-quartzite",
+      "value": 2
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/spear-generic-quartzite",
+      "value": 24
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attributes/damageByType/*-quartzite",
+      "value": 5
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spearhead-quartzite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spearhead-quartzite",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/client/texturesByType/spear-generic-quartzite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/spear.json",
+      "op": "addmerge",
+      "path": "/ingredients/T/allowedVariants/-",
+      "value": "quartzite"
+   }
+]

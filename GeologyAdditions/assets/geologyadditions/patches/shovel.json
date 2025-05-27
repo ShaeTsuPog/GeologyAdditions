@@ -1,0 +1,245 @@
+[
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+      "value": {
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-diorite",
+      "value": {
+         "base": "item/tool/shovel-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/texturesByType/*-diorite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/shovel-diorite",
+      "value": {
+         "gravel": 1.8999999999999999,
+         "sand": 2.2000000000000002,
+         "snow": 1.8999999999999999,
+         "soil": 2.2000000000000002
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/shovel-diorite",
+      "value": 60
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/shovel-diorite",
+      "value": 0.75
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/shovelhead-diorite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-gabbro",
+      "value": {
+         "base": "item/tool/shovel-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/texturesByType/*-gabbro",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/shovel-gabbro",
+      "value": {
+         "gravel": 1.8999999999999999,
+         "sand": 2.2000000000000002,
+         "snow": 1.8999999999999999,
+         "soil": 2.2000000000000002
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/shovel-gabbro",
+      "value": 60
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/shovel-gabbro",
+      "value": 0.75
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/shovelhead-gabbro",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-quartzite",
+      "value": {
+         "base": "item/tool/shovel-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/texturesByType/*-quartzite",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/shovel-quartzite",
+      "value": {
+         "gravel": 1.8999999999999999,
+         "sand": 2.2000000000000002,
+         "snow": 1.8999999999999999,
+         "soil": 2.2000000000000002
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/shovel-quartzite",
+      "value": 75
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/shovel-quartzite",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/shovelhead-quartzite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   }
+]

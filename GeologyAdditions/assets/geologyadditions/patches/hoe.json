@@ -1,0 +1,191 @@
+[
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "remove",
+      "path": "/texturesByType/*"
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/metal/ingot/{material}"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-diorite",
+      "value": {
+         "base": "item/tool/hoe-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/hoe-diorite",
+      "value": {
+         "soil": 1.8
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/hoe-diorite",
+      "value": 30
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/hoe-diorite",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "diorite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/hoehead-diorite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/diorite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-gabbro",
+      "value": {
+         "base": "item/tool/hoe-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/hoe-gabbro",
+      "value": {
+         "soil": 1.8
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/hoe-gabbro",
+      "value": 30
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/hoe-gabbro",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "gabbro"
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/hoehead-gabbro",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/gabbro1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-quartzite",
+      "value": {
+         "base": "item/tool/hoe-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/hoe-quartzite",
+      "value": {
+         "soil": 1.8999999999999999
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/hoe-quartzite",
+      "value": 35
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/hoe-quartzite",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "quartzite"
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/hoehead-quartzite",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/quartzite1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   }
+]

@@ -1,8 +1,8 @@
-[
-  {
+{
+"snowballvariants.json":[{
     "op": "addmerge",
     "path": "/0/ingredients/S/skipVariants",
     "value": ["bogiron"],
     "file": "game:recipes/grid/snowballvariants.json"
-  }
-]
+    }],
+}
