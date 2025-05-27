@@ -238,6 +238,194 @@
       "file": "game:itemtypes/tool/spear.json",
       "op": "addmerge",
       "path": "/variantgroups/1/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spear-generic-jade",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spear-generic-jade",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/spear-generic-jade",
+      "value": 2
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/spear-generic-jade",
+      "value": 24
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attributes/damageByType/*-jade",
+      "value": 5
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spearhead-jade",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jade1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spearhead-jade",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/client/texturesByType/spear-generic-jade",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/spear.json",
+      "op": "addmerge",
+      "path": "/ingredients/T/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spear-generic-jasper",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spear-generic-jasper",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/spear-generic-jasper",
+      "value": 2
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/spear-generic-jasper",
+      "value": 24
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/attributes/damageByType/*-jasper",
+      "value": 5
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/spearhead-jasper",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "op": "addmerge",
+      "path": "/shapeByType/spearhead-jasper",
+      "value": {
+         "base": "item/tool/spear/stone"
+      }
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:entities/spear.json",
+      "op": "addmerge",
+      "path": "/client/texturesByType/spear-generic-jasper",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/spear.json",
+      "op": "addmerge",
+      "path": "/ingredients/T/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/spear.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
       "value": "quartzite"
    },
    {

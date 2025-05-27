@@ -136,6 +136,118 @@
       "file": "game:itemtypes/tool/hoe.json",
       "op": "addmerge",
       "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-jade",
+      "value": {
+         "base": "item/tool/hoe-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/hoe-jade",
+      "value": {
+         "soil": 1.8999999999999999
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/hoe-jade",
+      "value": 35
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/hoe-jade",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/hoehead-jade",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jade1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-jasper",
+      "value": {
+         "base": "item/tool/hoe-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/hoe-jasper",
+      "value": {
+         "soil": 1.8999999999999999
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/hoe-jasper",
+      "value": 35
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/hoe-jasper",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/hoehead-jasper",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/hoe.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
       "value": "quartzite"
    },
    {

@@ -195,6 +195,172 @@
       "file": "game:itemtypes/tool/axe-stone.json",
       "op": "addmerge",
       "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "bone-jade"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/axe-bone-jade",
+      "value": 80
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axe-bone-jade",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axehead-jade",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jade1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:recipes/grid/tool/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:recipes/knapping/stone-hatchet.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "bone-jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/axe-bone-jasper",
+      "value": 80
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axe-bone-jasper",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:recipes/grid/tools/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/axehead-jasper",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/axe.json",
+      "op": "addmerge",
+      "path": "/1/ingredients/T/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:recipes/grid/tool/axe.json",
+      "op": "addmerge",
+      "path": "/2/ingredients/T/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:recipes/knapping/stone-hatchet.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/axe-stone.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
       "value": "quartzite"
    },
    {

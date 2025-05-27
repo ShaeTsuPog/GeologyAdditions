@@ -307,6 +307,238 @@
       "file": "game:itemtypes/tool/knife.json",
       "op": "addmerge",
       "path": "/variantgroups/1/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "bonejade"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-jade",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-bonejade",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/shapeByType/knife-generic-jade",
+      "value": {
+         "base": "item/tool/knife/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/knife-generic-jade",
+      "value": 120
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/knife-generic-jade",
+      "value": {
+         "plant": 1.2
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/knife-generic-jade",
+      "value": 0.90000000000000002
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knifeblade-jade",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/0/ingredients/T/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/-",
+      "value": {
+         "height": 2,
+         "ingredientPattern": "T\tB",
+         "ingredients": {
+            "B": {
+               "code": "bone",
+               "type": "item"
+            },
+            "T": {
+               "code": "knifeblade-jade",
+               "type": "item"
+            }
+         },
+         "output": {
+            "code": "knife-generic-bonejade",
+            "quantity": 1,
+            "type": "item"
+         },
+         "width": 1
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-knife.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
+      "value": "bonejasper"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-jasper",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knife-generic-bonejasper",
+      "value": {
+         "handle": {
+            "base": "block/creature/bone-yellow"
+         },
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/shapeByType/knife-generic-jasper",
+      "value": {
+         "base": "item/tool/knife/stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/knife-generic-jasper",
+      "value": 120
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/knife-generic-jasper",
+      "value": {
+         "plant": 1.2
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/knife-generic-jasper",
+      "value": 0.90000000000000002
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "op": "addmerge",
+      "path": "/texturesByType/knifeblade-jasper",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/0/ingredients/T/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:recipes/grid/tool/knife.json",
+      "op": "addmerge",
+      "path": "/-",
+      "value": {
+         "height": 2,
+         "ingredientPattern": "T\tB",
+         "ingredients": {
+            "B": {
+               "code": "bone",
+               "type": "item"
+            },
+            "T": {
+               "code": "knifeblade-jasper",
+               "type": "item"
+            }
+         },
+         "output": {
+            "code": "knife-generic-bonejasper",
+            "quantity": 1,
+            "type": "item"
+         },
+         "width": 1
+      }
+   },
+   {
+      "file": "game:recipes/knapping/stone-knife.json",
+      "op": "add",
+      "path": "/ingredient/allowedVariants/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/knife.json",
+      "op": "addmerge",
+      "path": "/variantgroups/1/states/-",
       "value": "quartzite"
    },
    {

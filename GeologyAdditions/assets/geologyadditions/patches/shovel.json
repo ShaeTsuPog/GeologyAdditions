@@ -177,6 +177,144 @@
       "file": "game:itemtypes/tool/shovel.json",
       "op": "addmerge",
       "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-jade",
+      "value": {
+         "base": "item/tool/shovel-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/texturesByType/*-jade",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jade1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/shovel-jade",
+      "value": {
+         "gravel": 1.8999999999999999,
+         "sand": 2.2000000000000002,
+         "snow": 1.8999999999999999,
+         "soil": 2.2000000000000002
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/shovel-jade",
+      "value": 75
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/shovel-jade",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jade"
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/shovelhead-jade",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jade1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/shapeByType/*-jasper",
+      "value": {
+         "base": "item/tool/shovel-stone"
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/texturesByType/*-jasper",
+      "value": {
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/miningspeedbytype/shovel-jasper",
+      "value": {
+         "gravel": 1.8999999999999999,
+         "sand": 2.2000000000000002,
+         "snow": 1.8999999999999999,
+         "soil": 2.2000000000000002
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/durabilitybytype/shovel-jasper",
+      "value": 75
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/attackpowerbytype/shovel-jasper",
+      "value": 1
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
+      "value": "jasper"
+   },
+   {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "op": "addmerge",
+      "path": "/texturesByType/shovelhead-jasper",
+      "value": {
+         "handle": {
+            "base": "block/transparent"
+         },
+         "material": {
+            "base": "block/stone/rock/jasper1"
+         },
+         "string": {
+            "base": "block/transparent"
+         }
+      }
+   },
+   {
+      "file": "game:itemtypes/tool/shovel.json",
+      "op": "addmerge",
+      "path": "/variantgroups/0/states/-",
       "value": "quartzite"
    },
    {

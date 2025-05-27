@@ -25,6 +25,8 @@ local itemtypes = import 'itemtypes.libsonnet';
                     ]
                     + itemtypes.add_stone_axe_patch('diorite', 60)
                     + itemtypes.add_stone_axe_patch('gabbro', 60)
+                    + itemtypes.add_stone_axe_patch('jade', 80)
+                    + itemtypes.add_stone_axe_patch('jasper', 80)
                     + itemtypes.add_stone_axe_patch('quartzite', 80),
 
   'knife.json': [
@@ -93,6 +95,8 @@ local itemtypes = import 'itemtypes.libsonnet';
                 ]
                 + itemtypes.add_stone_knife_patch('diorite', 90, 1, 0.75)
                 + itemtypes.add_stone_knife_patch('gabbro', 90, 1, 0.75)
+                 + itemtypes.add_stone_knife_patch('jade', 120, 1.2, 0.9)
+                  + itemtypes.add_stone_knife_patch('jasper', 120, 1.2, 0.9)
                 + itemtypes.add_stone_knife_patch('quartzite', 120, 1.2, 0.9),
   'hoe.json': [
                 {
@@ -112,6 +116,8 @@ local itemtypes = import 'itemtypes.libsonnet';
                 },
               ] + itemtypes.add_stone_hoe_patch('diorite', 30, 1.8, 1)
               + itemtypes.add_stone_hoe_patch('gabbro', 30, 1.8, 1)
+              + itemtypes.add_stone_hoe_patch('jade', 35, 1.9, 1)
+              + itemtypes.add_stone_hoe_patch('jasper', 35, 1.9, 1)
               + itemtypes.add_stone_hoe_patch('quartzite', 35, 1.9, 1),
   'shovel.json': [
                    {
@@ -144,6 +150,8 @@ local itemtypes = import 'itemtypes.libsonnet';
                    },
                  ] + itemtypes.add_stone_shovel_patch('diorite', 60, 0.75)
                  + itemtypes.add_stone_shovel_patch('gabbro', 60, 0.75)
+                 + itemtypes.add_stone_shovel_patch('jade', 75, 1)
+                 + itemtypes.add_stone_shovel_patch('jasper', 75, 1)
                  + itemtypes.add_stone_shovel_patch('quartzite', 75, 1),
   'spear.json': [
                   {
@@ -183,5 +191,7 @@ local itemtypes = import 'itemtypes.libsonnet';
                   },
                 ] + itemtypes.add_stone_spear_patch('diorite', 16, 1.75, 4)
                 + itemtypes.add_stone_spear_patch('gabbro', 16, 1.75, 4)
+                + itemtypes.add_stone_spear_patch('jade', 24, 2, 5)
+                + itemtypes.add_stone_spear_patch('jasper', 24, 2, 5)
                 + itemtypes.add_stone_spear_patch('quartzite', 24, 2, 5),
 }
