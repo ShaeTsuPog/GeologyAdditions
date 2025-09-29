@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/4",
+    "value": {
+      "code": "fireclay",
+      "triesPerChunk": 0.004,
+      "generator": "disc-followsurfacebelow",
+      "attributes": {
+        "inblock": {
+          "code": "*-mudstone",
+          "name": "type",
+          "allowedVariants": [
+            "sand",
+            "gravel"
+          ]
+        },
+        "placeblock": {
+          "code": "rawclay-fire-verysparse"
+        },
+        "withLastLayerBlockCallback": true,
+        "radius": {
+          "dist": "uniform",
+          "avg": 4,
+          "var": 2
+        },
+        "depth": {
+          "dist": "uniform",
+          "avg": 0,
+          "var": 0
+        },
+        "thickness": {
+          "avg": 2,
+          "var": 1
+        },
+        "maxYRoughness": 1
+      },
+      "climate": {
+        "minRain": 0.27,
+        "minTemp": -10
+      }
+    },
+    "file": "game:worldgen/deposits/soil/clay.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/5",
+    "value": {
+      "code": "fireclay",
+      "triesPerChunk": 0.0002,
+      "generator": "disc-followsurfacebelow",
+      "attributes": {
+        "inblock": {
+          "code": "*-mudstone",
+          "name": "type",
+          "allowedVariants": [
+            "sand",
+            "gravel"
+          ]
+        },
+        "placeblock": {
+          "code": "rawclay-fire-verysparse"
+        },
+        "withLastLayerBlockCallback": true,
+        "radius": {
+          "dist": "uniform",
+          "avg": 12,
+          "var": 5
+        },
+        "depth": {
+          "dist": "uniform",
+          "avg": 0,
+          "var": 0
+        },
+        "thickness": {
+          "avg": 3.3,
+          "var": 1
+        },
+        "maxYRoughness": 1
+      },
+      "climate": {
+        "minRain": 0.1,
+        "minTemp": -10
+      }
+    },
+    "file": "game:worldgen/deposits/soil/clay.json",
+    "side": "Server"
+  }
+]
